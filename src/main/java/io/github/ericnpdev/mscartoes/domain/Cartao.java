@@ -14,19 +14,19 @@ public class Cartao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String nome;
     @Enumerated(EnumType.STRING)
-    private BandeiraCartao bandeiraCartao;
+    private BandeiraCartao bandeira;
     private BigDecimal renda;
     private BigDecimal limiteBasico;
 
-    public Cartao(String name,
-                  BandeiraCartao bandeiraCartao,
+    public Cartao(String nome,
+                  BandeiraCartao bandeira,
                   BigDecimal renda,
                   BigDecimal limiteBasico) {
 
-        this.name = name;
-        this.bandeiraCartao = bandeiraCartao;
+        this.nome = nome;
+        this.bandeira = bandeira;
         this.renda = renda;
         this.limiteBasico = limiteBasico;
     }
