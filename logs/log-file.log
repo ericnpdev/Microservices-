@@ -167,3 +167,4 @@
 2023-06-03 16:36:04.630  INFO 4424 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
 2023-06-03 16:36:04.630  INFO 4424 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
 2023-06-03 16:36:04.642  INFO 4424 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-06-03 16:40:34.402  INFO 4424 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
